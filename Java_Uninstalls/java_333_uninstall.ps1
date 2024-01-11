@@ -1,0 +1,1 @@
+Get-Package -Name "Java 8 Update 333 (64-bit)" -RequiredVersion 8.0.3330.2 | Uninstall-Package -Force
