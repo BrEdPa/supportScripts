@@ -1,0 +1,10 @@
+1. copy the "voacConfigurations.ps1" file to the target machine's C:\TEMP folder.
+2. Open a powershell window as an administrator.
+3. copy the below command into the admin powershell window
+
+C:\TEMP\voacConfigurations.ps1 -bypass
+
+4. the window will output 50 lines representinng the various file permissions; you should see "sucessfully processed 50 files;"
+5. then, the window will output eight different tables; these are the firewall rules for the eight VOAC apps being applied. If you don't see any errors on any of the tables, it worked.
+6. burn this folder after reading and restart the computer. Verify the firewall permissions are present in the Windows Defender Firewall after restart.
+7. profit.
